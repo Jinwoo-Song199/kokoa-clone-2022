@@ -1,7 +1,12 @@
 .status-bar {
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  box-sizing: border-box;
   font-weight: bold;
 }
 

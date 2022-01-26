@@ -4,10 +4,20 @@
 
 /* Components */
 @import "components/status-bar.css";
-
+@import "components/nav-bar.css";
 /* Screens */
 @import "screens/login.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+
+.screen-header {
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px 20px;
+  opacity: 0.9;
 }
