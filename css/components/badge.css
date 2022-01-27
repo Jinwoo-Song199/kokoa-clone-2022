@@ -1,4 +1,4 @@
-.badge {
+.circle-badge {
   background-color: tomato;
   width: 30px;
   height: 30px;
@@ -8,4 +8,11 @@
   align-items: center;
   color: white;
   font-weight: 600;
+}
+
+.dot-badge {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
 }
