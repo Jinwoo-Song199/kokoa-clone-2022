@@ -1,10 +1,10 @@
 .screen-header {
-  z-index: 3;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 20px 20px;
+  padding: var(--horizontal-space);
   opacity: 0.9;
+  padding-top: 40px;
 }
 
 .screen-header__title {
