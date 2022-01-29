@@ -7,6 +7,7 @@
   padding: 5px 3px;
   box-sizing: border-box;
   font-weight: bold;
+  top: 0px;
 }
 
 .status-bar__column {
