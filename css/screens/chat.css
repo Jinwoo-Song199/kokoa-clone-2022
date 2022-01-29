@@ -21,19 +21,23 @@
 }
 
 @keyframes fadeIn {
-  from {
-    transform: translateY(30px);
+  0% {
     opacity: 0;
-  }
-  to {
     transform: none;
+  }
+  1% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
     opacity: 1;
+    transform: none;
   }
 }
 
 .main-chat {
   margin-top: 120px;
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   animation: fadeIn 0.8s linear;
